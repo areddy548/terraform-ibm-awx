@@ -8,7 +8,7 @@ sudo yum -y install -y wget git gettext ansible docker nodejs npm gcc-c++ bzip2 
 
 sudo yum -y install python3-setuptools
 sudo yum -y install python3-pip
-sudo yum install libselinux-python3
+sudo yum -y install libselinux-python3
 pip3 install --upgrade pip3
 pip3 install --upgrade setuptools
 #alias python=/usr/local/bin/python2.7
